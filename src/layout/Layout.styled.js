@@ -7,6 +7,26 @@ export const MainLayout = styled.div`
   position: relative;
 `
 
+export const BlueBackground = styled.div`
+  height: 375px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    height: 280px;
+  }
+`
+
+export const BlueImage = styled.img`
+  height: 100%;
+
+  @media (min-width: 768px) {
+    height: auto;
+    width: 100%;
+  }
+`
+
 export const LayoutContainer = styled.div`
   position: absolute;
   top: 0;
