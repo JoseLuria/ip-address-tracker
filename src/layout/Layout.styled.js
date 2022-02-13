@@ -7,18 +7,6 @@ export const MainLayout = styled.div`
   position: relative;
 `
 
-export const BlueBackground = styled.div`
-  background-image: url(${({img}) => img});
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 375px;
-
-  @media(min-width: 768px) {
-    height: 280px; 
-  }
-`
-
 export const LayoutContainer = styled.div`
   position: absolute;
   top: 0;
