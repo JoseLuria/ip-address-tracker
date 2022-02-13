@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import BackgroundImage from "../assets/pattern-bg.png"
 
 export const MainLayout = styled.div`
   width: 100%;
@@ -8,7 +9,7 @@ export const MainLayout = styled.div`
 `
 
 export const BlueBackground = styled.div`
-  background-image: url("../../src/assets/pattern-bg.png");
+  background-image: url(${BackgroundImage});
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
